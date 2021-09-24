@@ -83,6 +83,7 @@ def get_operation_amount():
     first_byte = int.from_bytes(readfile.read_byte() , 'big')
     second_byte = int.from_bytes(readfile.read_byte() , 'big')
     amount_of_operators = first_byte + second_byte
+    print("yea boi it workds")
     return amount_of_operators
 # Invoke the main method to run the program.
 main()
